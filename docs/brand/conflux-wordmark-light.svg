@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="Conflux">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="4" x2="64" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset="0.55" stop-color="#6366f1"/><stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 4)">
+    <rect width="64" height="64" rx="15" fill="url(#wbg)"/>
+    <g fill="none" stroke="#fff" stroke-linecap="round">
+      <path d="M13 17 C 27 17, 29 32, 42 32" stroke-width="4" stroke-opacity="0.65"/>
+      <path d="M13 47 C 27 47, 29 32, 42 32" stroke-width="4" stroke-opacity="0.65"/>
+      <path d="M13 32 H42" stroke-width="4"/>
+      <path d="M42 32 H53" stroke-width="5"/>
+    </g>
+    <g fill="#fff">
+      <circle cx="13" cy="17" r="3.2" fill-opacity="0.8"/><circle cx="13" cy="32" r="3.2"/><circle cx="13" cy="47" r="3.2" fill-opacity="0.8"/><circle cx="42" cy="32" r="7"/>
+    </g>
+    <circle cx="42" cy="32" r="3" fill="#4f46e5"/>
+  </g>
+  <text x="82" y="44" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-1" fill="#0b0f1a">Conflux</text>
+  <text x="84" y="63" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#6366f1">API CONTROL PLANE</text>
+</svg>

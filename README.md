@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="public/logo.svg" width="72" alt="Conflux logo" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/brand/conflux-wordmark-dark.svg" />
+  <img src="docs/brand/conflux-wordmark-light.svg" height="72" alt="Conflux API management platform logo" />
+</picture>
 
 # Conflux MVP: Open-Source Enterprise API Management Platform
 
