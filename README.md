@@ -2,7 +2,7 @@
 
 <img src="public/logo.svg" width="72" alt="Conflux logo" />
 
-# Conflux MVP — Open-Source Enterprise API Management Platform
+# Conflux MVP: Open-Source Enterprise API Management Platform
 
 **Every API. One control plane.**
 
@@ -32,6 +32,8 @@ It is built for:
 - **API product owners** who need an **API lifecycle** (draft → review → approve → publish → version → retire).
 - **Security, risk and audit teams** who need **API governance**, **policy-as-code** and a **tamper-evident audit trail**.
 - **Developers (API consumers)** who want a self-service **developer portal** with a sandbox and instant API keys.
+
+It brings together the pieces teams usually buy separately: an **API gateway** with canary deployment, blue-green deployment, traffic splitting, rate limiting and circuit breakers; **API security** with OAuth 2.0, OpenID Connect, JWT, mTLS and RBAC; **API analytics and monitoring** with SLA tracking and distributed tracing; and an **API catalog** with OpenAPI (Swagger) docs, an API sandbox and API key management. Teams comparing Kong, Apigee, MuleSoft, Azure API Management or AWS API Gateway can use it to see what a single hybrid cloud and on-premise API control plane looks like.
 
 The whole app runs in the browser with realistic demo data, so you can try it in under a minute with no backend.
 
@@ -251,10 +253,10 @@ This table compares the capabilities described on the [Conflux product page](htt
 | REST, SOAP, GraphQL, gRPC, WebSocket, async APIs | 🟡 | All protocols are modelled and configurable; no real traffic is proxied |
 | Canary, blue-green, version routing, weighted splitting | ✅ | Full configuration UI; test requests follow the configured split |
 | Circuit breakers, retries, timeouts | ✅ | Per-route configuration and circuit-state reset |
-| Connection pooling | ❌ | — |
+| Connection pooling | ❌ | Not included |
 | Request/response transformation, URL rewriting | 🟡 | Rules are defined and audited but not executed |
 | Response caching, compression, CORS | ✅ | Configuration only |
-| Large payload support | ❌ | — |
+| Large payload support | ❌ | Not included |
 
 ### Security
 
@@ -292,7 +294,7 @@ This table compares the capabilities described on the [Conflux product page](htt
 | Scheduled deprecation | 🟡 | Sunset date shown to consumers; retirement is manual |
 | Policy templates, API classification | ✅ | Public, partner and internal |
 | Immutable, tamper-evident audit trail | 🟡 | Real hash chain with verification, but stored in browser `localStorage` |
-| Configurable log retention | ❌ | — |
+| Configurable log retention | ❌ | Not included |
 | Audit export and compliance reports | ✅ | CSV/JSON audit export and a JSON evidence pack |
 
 ### Analytics & monitoring
@@ -305,7 +307,7 @@ This table compares the capabilities described on the [Conflux product page](htt
 | Alerting and routing | 🟡 | Rules are evaluated live; no notifications are sent |
 | Incident dashboard, node-level gateway status | ✅ | Acknowledge/resolve; node health and CPU |
 | Distributed tracing | 🟡 | Synthetic trace waterfalls |
-| Log aggregation | ❌ | — |
+| Log aggregation | ❌ | Not included |
 | Custom dashboards, scheduled report exports | ❌ | Reports export on demand only |
 
 ### Platform, deployment & integrations
@@ -408,10 +410,4 @@ src/
 - **Conflux product page:** https://sdlccorp.com/products/conflux/
 - **Talk to sales / request a demo:** sales@sdlccorp.com
 
----
-
-## 🏷️ Keywords
-
-API management platform · enterprise API management · API gateway · API control plane · developer portal · API lifecycle management · API governance · API security · API analytics · API monitoring · SLA monitoring · canary deployment · blue-green deployment · traffic splitting · rate limiting · circuit breaker · OAuth 2.0 · OpenID Connect · JWT · mTLS · RBAC · policy as code · OpenAPI · Swagger · API catalog · API sandbox · API keys · API versioning · API audit log · compliance reporting · distributed tracing · hybrid cloud API gateway · on-premise API management · multi-tenant API platform · GraphQL gateway · gRPC gateway · Kong alternative · Apigee alternative · MuleSoft alternative · Azure API Management alternative · AWS API Gateway alternative · open-source API management dashboard · React admin dashboard · TypeScript · Vite · Tailwind CSS
-
-<sub>Built as an MVP of Conflux by SDLC Corp. Product names and trademarks belong to their respective owners.</sub>
+<sub>Conflux MVP is an open-source API management dashboard and React admin dashboard built with TypeScript, Vite and Tailwind CSS, covering API lifecycle management, API governance, API versioning, audit logs and compliance reporting for multi-tenant enterprise API programs. Built as an MVP of Conflux by SDLC Corp. Product names and trademarks belong to their respective owners.</sub>
